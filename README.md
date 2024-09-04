@@ -8,9 +8,10 @@ Dự án này sử dụng mô hình VGGNet để nhận diện khuôn mặt. Cá
 
 ### 1. Cấu Trúc Thư Mục
 
-- Tạo một thư mục chứa các ảnh của từng người.
+- Tạo một thư mục chứa các ảnh của từng người trong `Image_data/data_jpg/`.
 - Đặt tên thư mục theo mã số sinh viên (MSV) của mỗi người.
 - Ví dụ cấu trúc thư mục:
+- Image_data/ └── data_jpg/ ├── 12345678/ │ ├── img1.jpg │ ├── img2.jpg ├── 87654321/ ├── img1.jpg ├── img2.jpg
 
 ### 2. Chuẩn Bị Dữ Liệu
 
